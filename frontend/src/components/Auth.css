@@ -1,0 +1,10 @@
+.auth-container {
+    padding-top: 100px;
+    min-height: 100vh;
+    background: linear-gradient(120deg, #f0f8ff, #e1f0ff);
+  }
+  
+  .shadow-lg {
+    border: none;
+    border-radius: 15px;
+  }

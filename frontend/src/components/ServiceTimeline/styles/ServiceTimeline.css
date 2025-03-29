@@ -1,0 +1,135 @@
+/* Main Container */
+.service-timeline {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Vehicle Header */
+.vehicle-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background: #f8f9fa;
+  border-radius: 10px;
+}
+
+.vehicle-info h1 {
+  margin: 0;
+  font-size: 1.8rem;
+  color: #2c3e50;
+}
+
+.vehicle-info p {
+  margin: 0.5rem 0 0 0;
+  color: #7f8c8d;
+}
+
+/* Progress Bar */
+.progress-container {
+  width: 300px;
+}
+
+.progress-bar {
+  height: 12px;
+  background: #ecf0f1;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.progress {
+  height: 100%;
+  background: #27ae60;
+  transition: width 0.3s ease;
+}
+
+.progress-text {
+  display: block;
+  text-align: right;
+  margin-top: 0.5rem;
+  color: #27ae60;
+  font-weight: 500;
+}
+
+/* Service Cards */
+.service-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  margin: 1.5rem 0;
+  padding: 1.5rem;
+}
+
+.status-indicator {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.status-badge {
+  background: #27ae60;
+  color: white;
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+}
+
+.in-progress .status-badge {
+  background: #f1c40f;
+}
+
+.service-type {
+  color: #7f8c8d;
+  font-weight: 500;
+}
+
+/* Media Elements */
+.media-container {
+  position: relative;
+  margin: 1rem 0;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+video {
+  width: 100%;
+  border-radius: 8px;
+  aspect-ratio: 16/9;
+}
+
+.media-caption {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+  color: #7f8c8d;
+  font-size: 0.9rem;
+}
+
+/* Service Details */
+.service-details h3 {
+  margin: 0 0 1rem 0;
+  color: #2c3e50;
+}
+
+.meta-info {
+  color: #7f8c8d;
+  margin-bottom: 1.5rem;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.service-description {
+  color: #34495e;
+  line-height: 1.6;
+  margin: 1rem 0;
+}
+
+/* Add your CSS styles here */
+.service-timeline {
+  padding: 2rem;
+}
